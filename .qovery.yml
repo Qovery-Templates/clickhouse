@@ -1,0 +1,10 @@
+
+application:
+  name: clickhouse
+  project: CHANGEME
+  organization: CHANGEME
+storage:
+- name: data
+  type: ssd
+  size: 5GB
+  mount_point: /var/lib/clickhouse
